@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'open sans', arial;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    color: #333333;
+    font-weight: bold;
+}
+
+header {
+    padding: 20px 0px;
+    max-width: 100%;
+    max-height: 75vh;
+    position: relative;
+}
+
+.logo {
+    font-size: 2.5em;
+    color: white;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+
+/* .overlay {
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    z-index: -1;
+    width: 150%;
+    height: 100%;
+    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    background-color: #505B60;
+    border-bottom: 8px solid #3A4144;
+} */
+
+.menu-btn {
+    color: white;
+    border: none;
+    background: none;
+    position: relative;
+    font-size: 3em;
+    top: 10px;
+    float: right;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-btn:hover {
+    color: #ccc;
+}
+
+.btn-anim {
+    animation: btn-appear 0.5s forwards;
+    -webkit-animation: btn-appear 0.5s forwards;
+}
+
+.menu {
+    position: fixed;
+    background-color: #505B60;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.menu ul {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    animation: text-slide 0.5s forwards;
+    -webkit-animation: text-slide 0.5s forwards;
+}
+
+.menu li {
+    margin: 50px 0px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+.heading {
+    color: white;
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 6.5em;
+}
+
+.btn-custom {
+    margin: 6em auto;
+    padding: 10px;
+    border-radius: 50px;
+    width: 180px;
+    text-align: center;
+    display: block;
+    background-color: white;
+    color: #333333;
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+
+.btn-custom:hover {
+    background: #ccc;
+    text-decoration: none;
+    color: black;
+}
+
+/* Content */
+
+.content {
+    margin: 6em 0px;
+    overflow: hidden;
+}
+
+.content h2 {
+    margin: 40px 0em;
+}
+
+.content p {
+    font-size: 2em;
+    margin: 1.8em 0em;
+}
+
+.services,
+.contact,
+.other-nav {
+    position: relative;
+}
+
+.home {
+    top: -3em;
+    padding-top: 5em;
+}
+
+.background:before {
+    position: absolute;
+    left: -5%;
+    top: 0%;
+    content: "";
+    width: 150%;
+    height: 100%;
+    transform: rotate(-0.5deg);
+    -webkit-transform: rotate(-0.5deg);
+    background-color: #505B60;
+    border-bottom: 8px solid #3A4144;
+    z-index: -1;
+}
+
+.default {
+    margin: 0;
+}
+
+.other-nav {
+    padding-top: 2em;
+}
+
+.reasoning {
+    position: relative;
+}
+
+.nav-single .background:before {
+    height: 150%;
+    top: -25%;
+    transform: rotate(-0.2deg);
+    -webkit-transform: rotate(-0.2deg);
+}
+
+.background h2,
+.background h3,
+.background p {
+    color: white;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title h3 {
+    margin-left: 1em;
+}
+
+.icon {
+    color: white;
+    font-size: 6em;
+    display: inline-block;
+}
+
+.service h3 {
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+.service {
+    margin: 10em 0em;
+}
+
+.brands .title {
+    margin: 4em 0px;
+}
+
+.brands h3 {
+    font-weight: lighter;
+}
+
+.brand {
+    color: #D5D5D5;
+    font-size: 7em;
+}
+
+/*
+    Testimonials
+*/
+
+.testimonial-item {
+    text-align: center;
+    position: relative;
+}
+
+.testimonial-image {
+    width: 65%;
+}
+
+blockquote {
+    margin: 1em 0;
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+cite {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.controls #btn-right,
+.controls #btn-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.controls #btn-left {
+    left: 2%;
+}
+
+.controls #btn-right {
+    right: 2%;
+}
+
+.index-item {
+    display: none;
+}
+
+.current {
+    position: relative;
+    display: block;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    z-index: -1;
+}
+
+.controls button {
+    border: none;
+    background: none;
+    color: black;
+    font-size: 2em;
+}
+
+/*
+    reasoning
+*/
+
+.reasoning h2 {
+    margin-bottom: 1em;
+}
+
+.reasoning .branding {
+    font-weight: lighter;
+}
+
+.reasoning p {
+    margin-bottom: 3em;
+}
+
+.reasoning .icon {
+    display: block;
+    margin: 0 auto;
+    font-size: 7.5em;
+    text-align: center;
+}
+
+/*
+    People
+*/
+
+.people {
+    text-align: center;
+}
+
+.people p {
+    margin: 1em 0;
+}
+
+.people .emp-name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.people .position {
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+.individual {
+    margin: 8em 0;
+}
+
+/*
+    Contact page
+*/
+
+.contact-details {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.contact-details .brand {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.contact-item .contact-info {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+
+
+/* 
+    form 
+*/ 
+
+label {
+    margin: 1em 0em;
+    font-weight: lighter;
+    color: white;
+    display: block;
+    font-size: 2em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 1em;
+    font-size: 1.5em;
+    display: block;
+    resize: none;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type="submit"] {
+    margin: 2em auto;
+    border: none;
+    cursor: pointer;
+}
+
+footer.content h3 {
+    margin: 1em 0em;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+footer .title .brand {
+    font-size: 5em;
+    color: #929292;
+}
+
+footer .title {
+    margin: 3em 0;
+}
+
+footer .title span:nth-child(2) {
+    font-size: 2em;
+    margin-left: 2em;
+    font-weight: lighter;
+}
+
+.social a {
+    font-size: 5em;
+    color: #929292;
+    padding-right: 30px;
+}
+
+.copy {
+    position: relative;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+    padding: 2em 2em;
+    margin: 0;
+    top: 1em;
+}
+
+footer.content {
+    margin-bottom: 0;
+}
+
+.foot-item {
+    margin-bottom: 8em;
+}

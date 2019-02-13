@@ -1,0 +1,33 @@
+@keyframes text-slide {
+    0% {
+        top: 40%;
+    }
+
+    100% {
+        top: 50%;  
+    }
+}
+
+@keyframes btn-appear {
+    0% {
+        top: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 10px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        bottom: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 10px;
+        opacity: 1;
+    }
+}
