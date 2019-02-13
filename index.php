@@ -12,7 +12,7 @@
     <div class="container">
         
         <h2>Services</h2>
-
+    <div class="grid-2">
         <div class="service">
             <div class="title">
                 <span class="icon fas fa-server"></span>
@@ -44,6 +44,7 @@
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris metus turpis, volutpat et viverra at.</p>
         </div>
+    </div>
 
     </div>
 </section>
@@ -53,7 +54,7 @@
     <div class="container">
 
         <h2>Brands we<br />worked with</h2>
-
+        <div class="grid-3">
             <div class="title">
                 <span class="brand fab fa-microsoft"></span>
                 <h3>Microsoft</h3>
@@ -78,6 +79,7 @@
                 <span class="brand fab fa-microsoft"></span>
                 <h3>Microsoft</h3>
             </div>
+        </div>
 
     </div>
 

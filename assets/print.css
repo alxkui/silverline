@@ -1,0 +1,16 @@
+/*
+	Specific Stylesheets for printing
+	
+    Stylesheet Author: Alex Kovacs
+    Author Website: alexkovacsweb.com
+*/
+
+body {
+	color:black;
+}
+
+.background {
+	background: white;
+	border: none;
+	color: black;
+}

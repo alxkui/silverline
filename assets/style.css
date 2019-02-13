@@ -1,4 +1,13 @@
+/*
+    Stylesheet Author: Alex Kovacs
+    Author Website: alexkovacsweb.com
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/*
+    Formatting
+*/
 
 body {
     margin: 0;
@@ -17,6 +26,10 @@ h2 {
     font-weight: bold;
 }
 
+/*
+    Header
+*/
+
 header {
     padding: 20px 0px;
     max-width: 100%;
@@ -32,6 +45,13 @@ header {
     position: relative;
 }
 
+.heading {
+    color: white;
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 6.5em;
+}
+
 /* .overlay {
     position: absolute;
     top: -5%;
@@ -44,6 +64,29 @@ header {
     background-color: #505B60;
     border-bottom: 8px solid #3A4144;
 } */
+
+/*
+    Grids
+*/
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.grid-3 .title {
+    display: block;
+    text-align: center;
+}
+
+/*
+    Menu
+*/
 
 .menu-btn {
     color: white;
@@ -101,12 +144,9 @@ header {
     font-weight: bold;
 }
 
-.heading {
-    color: white;
-    margin-top: 1.5em;
-    text-align: center;
-    font-size: 6.5em;
-}
+/*
+    Buttons
+*/
 
 .btn-custom {
     margin: 6em auto;
@@ -127,7 +167,9 @@ header {
     color: black;
 }
 
-/* Content */
+/* 
+    Content 
+*/
 
 .content {
     margin: 6em 0px;
@@ -142,6 +184,10 @@ header {
     font-size: 2em;
     margin: 1.8em 0em;
 }
+
+/*
+    helper styles
+*/
 
 .services,
 .contact,
@@ -187,11 +233,19 @@ header {
     -webkit-transform: rotate(-0.2deg);
 }
 
+/*
+    Specific background styles
+*/
+
 .background h2,
 .background h3,
 .background p {
     color: white;
 }
+
+/*
+    flex items
+*/
 
 .title {
     display: flex;
@@ -254,6 +308,10 @@ cite {
     font-size: 2em;
     font-weight: bolder;
 }
+
+/*
+    Testimonial Controls
+*/
 
 .controls #btn-right,
 .controls #btn-left {

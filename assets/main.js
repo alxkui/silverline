@@ -7,7 +7,7 @@ function openMenu() {
     menu_btn.addClass('fa-times');
     menu_btn.addClass('btn-anim');
     menu.fadeIn('fast');
-    $('body').css('overflow', 'hidden');
+    $('body').css('overflow-y', 'hidden');
 }
 
 function closeMenu()  {
@@ -16,7 +16,7 @@ function closeMenu()  {
     menu_btn.addClass('fa-bars');
     menu.fadeOut('fast');
     menu_btn.removeClass('btn-anim');
-    $('body').css('overflow', 'scroll');
+    $('body').css('overflow-y', 'scroll');
 }
 
 // Slider
@@ -24,7 +24,7 @@ function closeMenu()  {
 var btn_right = $('#btn-right');
 var btn_left = $('#btn-left');
 var index_item = $('.index-item');
-index = 0;
+var index = 0;
 
 btn_right.click(function() {
     

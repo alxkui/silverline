@@ -1,3 +1,9 @@
+/*
+    Specific Stylehseet for animations
+    Stylesheet Author: Alex Kovacs
+    Author Website: alexkovacsweb.com
+*/
+
 @keyframes text-slide {
     0% {
         top: 40%;
