@@ -1,4 +1,4 @@
-<h1 class="logo">Silverline <br /> Inc.</h1>
+<a href="./"><h1 class="logo">Silverline <br /> Inc.</h1></a>
 <button onClick="openMenu()" class="menu-btn fas fa-bars"></button>
 <div class="menu">
     <ul>
