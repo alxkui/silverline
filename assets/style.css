@@ -66,25 +66,6 @@ header {
 } */
 
 /*
-    Grids
-*/
-
-.grid-2 {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-}
-
-.grid-3 {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-}
-
-.grid-3 .title {
-    display: block;
-    text-align: center;
-}
-
-/*
     Menu
 */
 

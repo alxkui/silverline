@@ -6,3 +6,28 @@
     Author Website: alexkovacsweb.com
 */
 
+@media only screen and (min-width: 1000px) {
+	/*
+    Grids
+	*/
+
+	.grid-2 {
+	    display: grid;
+	    grid-template-columns: 2fr 2fr;
+	}
+
+	.service {
+		margin: 4em;
+	}
+
+	.grid-3 {
+	    display: grid;
+	    grid-template-columns: 2fr 2fr 2fr;
+	}
+
+	.grid-3 .title {
+	    display: inline-block;
+	    text-align: center;
+	}
+}
+
