@@ -28,7 +28,14 @@
 
 	.grid-3 .title {
 	    display: inline-block;
-	    text-align: center;
+	}
+
+	.grid-3 .title h3 {
+		margin: 0;
+	}
+
+	.grid-3 .title .brand {
+		display: block;
 	}
 }
 

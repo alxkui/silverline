@@ -13,25 +13,27 @@
 
             <div class="foot-item">
                 <h3>Contact info</h3>
-                <div class="title">
-                    <span class="brand fas fa-envelope"></span>
-                    <span>email@silverline.com</span>
-                </div>
 
                 <div class="title">
-                    <span class="brand fas fa-phone"></span>
-                    <span>02837482123</span>
+                    <span class="brand fas fa-envelope"></span>
+                    <span><a href="mailto:info@silverlineincorporated.com">info@silverlineincorporated.com</a></span>
                 </div>
 
                 <div class="title">
                     <span class="brand fas fa-building"></span>
-                    <span>Some address</span>
+                    <span>
+                        <br />
+                        20-22 Wenlock Road<br />
+                        London<br />
+                        N1 7GU<br />
+                        United Kingdom
+                    </span>
                 </div>
             </div>
 
             <div class="foot-item">
-                <h3>Other info</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris metus.</p>
+                <h3><strong>Disclaimer:</strong></h3>
+                <p>Silverline Incorporated LTD is a registered limited company in England and Wales number 11694839</p>
             </div>
         </div>
 

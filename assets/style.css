@@ -445,6 +445,10 @@ footer .title .brand {
     color: #929292;
 }
 
+footer .title a {
+    display: block;
+}
+
 footer .title {
     margin: 3em 0;
 }
@@ -478,4 +482,9 @@ footer.content {
 
 .foot-item {
     margin-bottom: 8em;
+}
+
+footer .title,
+footer .brand {
+    display: block;
 }
